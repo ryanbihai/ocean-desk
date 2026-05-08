@@ -1,0 +1,24 @@
+{
+  "name": "ocean-desk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "B-end human agent desk for OceanBus — ticket management, queue assignment, and canned responses for customer service teams",
+  "main": "scripts/desk.js",
+  "scripts": {
+    "setup": "node scripts/desk.js setup",
+    "listen": "node scripts/desk.js listen",
+    "queue": "node scripts/desk.js queue"
+  },
+  "keywords": [
+    "oceanbus",
+    "agent-desk",
+    "customer-service",
+    "ticket-management",
+    "ai-agent",
+    "human-in-the-loop"
+  ],
+  "license": "MIT-0",
+  "dependencies": {
+    "oceanbus": "^0.4.0"
+  }
+}
