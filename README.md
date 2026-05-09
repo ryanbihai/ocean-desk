@@ -144,6 +144,8 @@ AI Skill (health-checkup / doctor-referral)
 
 | 依赖 | 说明 |
 |------|------|
+> 📖 **深度阅读**：[SKILL.md](./SKILL.md) — LLM 操作手册、坐席工作流、SLA 规则
+
 | [ocean-chat](https://clawhub.ai/skills/ocean-chat) | **必装**。提供线程协议 (ocean-thread/v1)、消息收发、Roster 通讯录 |
 | [OceanBus SDK](https://www.npmjs.com/package/oceanbus) | ocean-chat 自带，无需单独安装 |
 
@@ -184,4 +186,12 @@ AI Skill (health-checkup / doctor-referral)
 
 ---
 
-*OceanBus 生态项目 · MIT-0 协议*
+## License
+
+MIT-0 — 自由使用、修改、分发。
+
+---
+
+## License
+
+MIT-0 — 自由使用、修改、分发。
