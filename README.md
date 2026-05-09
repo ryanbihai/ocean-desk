@@ -1,4 +1,20 @@
-# 🖥 Ocean Desk — B 端坐席工单系统
+# �## 📑 目录
+
+- [它解决什么](#它解决什么)
+- [三步跑通](#三步跑通)
+- [架构](#架构)
+- [在 OceanBus 生态中的定位](#在-oceanbus-生态中的定位)
+- [命令速查](#命令速查)
+- [前置依赖](#-前置依赖)
+- [跟 ocean-chat 的关系](#跟-ocean-chat-的关系)
+- [相关项目](#相关项目)
+- [数据存储](#数据存储)
+- [参与贡献](#参与贡献)
+- [License](#license)
+
+---
+
+� Ocean Desk — B 端坐席工单系统
 
 **AI skill 转人工的最后一步。给客服团队一个工单看板：谁在排队、谁在处理、SLA 还剩多久。**
 
@@ -157,16 +173,44 @@ AI Skill (health-checkup / doctor-referral)
 
 ---
 
+## 在 OceanBus 生态中的定位
+
+```
+Ocean Chat           health-checkup / china-top-doctor     ocean-desk
+(通讯录+消息基础设施)  →  (垂直 Skill — AI 完成推荐)  →  (坐席工单 — 人工承接)
+```
+
+Ocean Desk 是 OceanBus 生态中 **AI 转人工的最后一公里**——垂直 Skill 完成 AI 推荐后，通过 ocean-thread/v1 协议将完整上下文打包转交人工坐席。
+
+---
+
+## 参与贡献
+
+Ocean Desk 是 MIT-0 协议的开源项目，欢迎贡献！
+
+- **GitHub**: [ryanbihai/ocean-desk](https://github.com/ryanbihai/ocean-desk)
+- **可参与方向**: SLA 策略引擎、多渠道接入（钉钉/飞书/企微）、Web 看板
+- **深度阅读**: [SKILL.md](./SKILL.md) — LLM 操作手册、坐席工作流、SLA 规则
+
+```bash
+git clone https://github.com/ryanbihai/ocean-desk.git
+cd ocean-desk && npm install
+```
+
+---
+
 ## 数据存储
 
 ```
 ~/.oceanbus-desk/
 ├── credentials.json     # desk 的 OceanBus 身份
 ├── config.json          # 坐席名单 + 排班配置
-├── tickets.json         # 工单数据（每个工单 1:1 绑定线程）
+├── tickets.json         # 工单数据
 └── templates.json       # 快捷回复模板
 ```
 
 ---
 
-*OceanBus 生态项目 · MIT-0 协议*
+## License
+
+MIT-0 — 自由使用、修改、分发。

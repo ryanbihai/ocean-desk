@@ -1,7 +1,7 @@
 ---
 name: ocean-desk
 description: OceanBus-powered B-end human agent desk for customer service teams. Use when handling customer inquiries, managing support tickets, assigning work to human agents, or integrating AI skills with human-in-the-loop workflows. Zero server deployment, depends on ocean-chat.
-version: 1.0.0
+version: 1.0.2
 metadata:
   openclaw:
     requires:
