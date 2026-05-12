@@ -1,0 +1,10 @@
+name: ocean-desk
+title: Ocean Desk
+version: 1.1.0
+runtime: node
+entry: scripts/desk.js
+min_openclaw_version: "2026.1.0"
+categories: [business, customer-service, automation]
+requires:
+  bins: [node]
+os: [macos, linux, windows]

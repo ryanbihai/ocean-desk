@@ -1,0 +1,16 @@
+{
+  "desk_name": "OceanBus 客服中心",
+  "assign_strategy": "round-robin",
+  "sla_hours": { "urgent": 2, "normal": 24 },
+  "agents": [
+    {
+      "id": "agent_01",
+      "name": "示例坐席",
+      "openid": "ob_example_openid_here",
+      "skills": ["体检", "专家推荐"],
+      "active": true
+    }
+  ],
+  "desk_openid": "注册后自动填入 — 运行 node scripts/desk.js setup",
+  "_instructions": "复制此文件为 config.json 并修改。desk_openid 在 setup 后自动更新。"
+}
