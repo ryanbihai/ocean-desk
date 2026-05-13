@@ -19,6 +19,6 @@
   ],
   "license": "MIT-0",
   "dependencies": {
-    "oceanbus": "^0.7.0"
+    "oceanbus": "^0.9.0"
   }
 }
