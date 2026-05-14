@@ -1,7 +1,7 @@
 ---
 name: ocean-desk
 description: Backend human-agent desk infrastructure for OceanBus brand agents. Not customer-facing — used by brand agents to escalate to human operators. Responds to -humanservice command. Depends on ocean-chat. npm install oceanbus.
-version: 1.1.1
+version: 1.1.2
 metadata:
   openclaw:
     requires:
