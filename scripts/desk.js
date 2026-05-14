@@ -83,8 +83,8 @@ async function cmdSetup() {
   const ob = await createOceanBus({ keyStore: { type: 'memory' } });
   let openid;
   try {
-    const reg = await ob.register();
-    openid = await ob.getOpenId();
+    const reg = await ob.createIdentity();
+    openid = await ob.getAddress();
     saveCredentials(reg.agent_id, reg.api_key, openid);
     agents.setDeskOpenid(openid);
   } catch (e) {
